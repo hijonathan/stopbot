@@ -1,0 +1,9 @@
+{
+  "manifest_version": 2,
+  "name": "Stopbot",
+  "description": "Easily turn image loading on and off reduce data usage and speed up page loads.",
+  "version": "1.0.3",
+  "permissions": [ "contentSettings" ],
+  "browser_action": { "default_icon": "photos.png" },
+  "background": { "scripts": ["background.js"], "persistent": false }
+}
